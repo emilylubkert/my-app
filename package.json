@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@skyscanner/backpack-react-scripts": "10.0.4"
+    "@skyscanner/backpack-react-scripts": "10.0.4",
+    "@testing-library/jest-dom": "^5.16.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,7 +27,9 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react": "^12.1.5",
     "bpk-component-button": "^6.2.9",
+    "bpk-component-calendar": "^12.0.0",
     "bpk-component-code": "^3.1.14",
     "bpk-component-text": "^6.2.0",
     "bpk-mixins": "^28.3.0",
